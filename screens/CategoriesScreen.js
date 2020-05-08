@@ -35,7 +35,7 @@ CategoriesScreen.navigationOptions = {
 const styles = StyleSheet.create({
     screen: {
         flex: 1,
-        justifyContent: 'center',
+        justifyContent: 'center',  
         alignItems: 'center'
     }
 });
