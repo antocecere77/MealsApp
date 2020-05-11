@@ -7,7 +7,7 @@ import { HeaderButtons, Item } from 'react-navigation-header-buttons';
 import HeaderButton from '../components/HeaderButton';
 
 const FavoritesScreen = props => {
-    const favMeals = useSelector(state => state.meals.favoritesMeals);
+    const favMeals = useSelector(state => state.meals.favoriteMeals);
     
     return <MealList listData={favMeals} navigation={props.navigation}/>;
 };
