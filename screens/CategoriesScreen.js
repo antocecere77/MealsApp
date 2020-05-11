@@ -1,6 +1,5 @@
 import React from 'react';
-import { Text, 
-         FlatList, 
+import { FlatList, 
          StyleSheet
 } from 'react-native';
 import { HeaderButtons, Item } from 'react-navigation-header-buttons';
